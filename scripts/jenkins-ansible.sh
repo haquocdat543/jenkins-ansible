@@ -15,3 +15,4 @@ git clone https://github.com/${username}/${reponame}.git   #change to your own r
 cd ${reponame}
 ansible-playbook -i localhost Jenkins-playbook.yml
 
+hostnamectl set-hostname Jenkins-Ansible 
